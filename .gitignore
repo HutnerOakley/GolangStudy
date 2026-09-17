@@ -1,0 +1,36 @@
+# IDE / editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Go build outputs
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+__debug_bin*
+
+# Test coverage and profiling outputs
+coverage.*
+*.coverprofile
+*.prof
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
